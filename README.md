@@ -1,6 +1,6 @@
-# How to populate nodes with binding to a data in WPF TreeView
+# How to Populate Nodes with Binding to a Data in WPF TreeView?
 
-This repository describes how to populate nodes with binding to a data in [WPF TreeView](https://www.syncfusion.com/wpf-controls/treeview) (SfTreeView)
+This repository describes how to populate nodes with binding to a data in [WPF TreeView](https://www.syncfusion.com/wpf-controls/treeview) (SfTreeView).
 
 To create a tree view using data binding, set a hierarchical data collection to the [ItemsSource](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeView.SfTreeView.html#Syncfusion_UI_Xaml_TreeView_SfTreeView_ItemsSource) property. And set the child object name to the [ChildPropertyName](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeView.SfTreeView.html#Syncfusion_UI_Xaml_TreeView_SfTreeView_ChildPropertyName) property.
 
@@ -45,7 +45,7 @@ To create a tree view using data binding, set a hierarchical data collection to 
                                 <TextBlock Text="{Binding ItemName}"
                                                    Foreground="Black"
                                                    FontSize="14"
-                                                   VerticalAlignment="Center" 
+                                                   VerticalAlignment="Center" />
                             </Grid>
                         </Grid>
                     </Grid>
@@ -55,3 +55,5 @@ To create a tree view using data binding, set a hierarchical data collection to 
     </Grid>
 </Window>
 ```
+
+![TreeView bound with hierarchical Datasource](TreeViewWithHierarchicalDataSource.png)
